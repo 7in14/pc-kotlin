@@ -1,11 +1,11 @@
 package com.example.pscurzytek
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
-import org.springframework.boot.runApplication
+import org.springframework.boot.SpringApplication
 
 @SpringBootApplication
 class App
 
 fun main(args: Array<String>) {
-    runApplication<App>(*args)
+    SpringApplication.run(App::class.java, *args)
 }
